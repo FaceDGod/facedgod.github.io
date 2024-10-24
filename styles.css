@@ -6,26 +6,34 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('FacedGod Assets/facedgodasset1.jpeg') no-repeat center center fixed;
+    background: url('FaceGod Assets/facegodasset1.jpeg') no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
 }
+
 .container {
     background-color: #fff;
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically */
+    flex-direction: column; /* ensures content stacks vertically */
+    height: 100%;
+    width: 100%;
 }
+
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
     color: #333;
     padding-left: 50px;
+    text-align: center; /* centers the text horizontally */
 }
+
 p {
     font-size: 1.2em;
-    color: #666;
-    margin-bottom: 30px;
 }
 form {
     display: flex;
