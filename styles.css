@@ -19,17 +19,19 @@ body {
     display: flex;
     justify-content: center; /* centers horizontally */
     align-items: center; /* centers vertically */
-    flex-direction: column; /* ensures content stacks vertically */
-    height: 100%;
-    width: 100%;
+    flex-direction: column;
+    height: auto; /* Adjust this if you want a specific height */
+    width: 100%; /* Adjust the width based on your container needs */
+    min-height: 50vh; /* This ensures it takes up half of the viewport height */
+    text-align: center; /* Ensure text within is centered horizontally */
 }
 
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
     color: #333;
-    padding-left: 50px;
-    text-align: center; /* centers the text horizontally */
+    padding: 0; /* Removed the padding to avoid shifting */
+    text-align: center; /* Centers the text horizontally */
 }
 
 p {
