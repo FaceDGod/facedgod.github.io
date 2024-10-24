@@ -17,13 +17,6 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     display: flex;
-    justify-content: center; /* centers horizontally */
-    align-items: center; /* centers vertically */
-    flex-direction: column;
-    height: auto; /* Adjust this if you want a specific height */
-    width: 100%; /* Adjust the width based on your container needs */
-    min-height: 50vh; /* This ensures it takes up half of the viewport height */
-    text-align: center; /* Ensure text within is centered horizontally */
 }
 
 h1 {
