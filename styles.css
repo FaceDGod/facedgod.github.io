@@ -30,7 +30,7 @@ h1 {
     font-size: 3em;
     margin-bottom: 20px;
     color: #333;
-    padding: 0; /* Removed the padding to avoid shifting */
+    padding-left: 500; /* Removed the padding to avoid shifting */
     text-align: center; /* Centers the text horizontally */
 }
 
