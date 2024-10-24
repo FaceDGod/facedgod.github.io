@@ -8,6 +8,7 @@ body {
     height: 100vh;
     background-color: #f0f0f0;
     background: url('FacedGod Assets/facedgodasset1.jpeg') no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
 }
 .container {
